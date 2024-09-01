@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
     <link rel="stylesheet" href="feedback.css">
-    <script type="text/javascript" src=""></script>
 </head>
 <body>
     <nav class="navbar">
@@ -21,12 +20,23 @@
     </nav>
     <div class="container">
         <h3>Please put your comment</h3>
-        <form>
-            Name:<input type="text" name="Name" placeholder="Enter Name"/><br><br>
-            Email: <input type="text" name="Eamil" placeholder="Enter Email"/> <br><br>
-            Comment:<input type="text" name="Comment" placeholder="Enter comment"/><br><br>
-            <button style="font-size: 25px; background-color: orangered;" >Send</button>
+        <form action="" id="musicplayer">
+            <div class="alert">Your message sent</div>
+            <div class="inputBox">
+                Name:<input id="name" type="text" name="Name" placeholder="Enter Name"/><br><br>
+            </div>
+            <div class="inputBox">
+                Email: <input id="email" type="text" name="Eamil" placeholder="Enter Email"/> <br><br>
+            </div>
+            <div class="inputBox">
+                Comment:<input id="comment" type="text" name="Comment" placeholder="Enter comment"/><br><br>
+            </div>
+            <div class="inputBox">
+                <button type="submit" style="font-size: 25px; background-color: orangered;" >Send</button>
+            </div>
         </form>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./feedback.js"></script>
 </body>
 </html>
