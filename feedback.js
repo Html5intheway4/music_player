@@ -1,11 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDa43vnDFOVL2aoYEqmEOdlVSB1c9TEsQk",
-    authDomain: "musicplayer-2369d.firebaseapp.com",
-    databaseURL: "https://musicplayer-2369d-default-rtdb.firebaseio.com",
-    projectId: "musicplayer-2369d",
-    storageBucket: "musicplayer-2369d.appspot.com",
-    messagingSenderId: "649797818832",
-    appId: "1:649797818832:web:05e25d5d6a29e6aa1e01d5"
+    ""
   };
 
 //initialize firebase
