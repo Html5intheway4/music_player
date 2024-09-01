@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+    <hr>
+    <h2>Calculator</h2>
+    <hr>
+
+    <form>
+        Enter 1st Number : <input type="text" id = "first" maxlength = "4" size="4"> <br>
+        Enter 2nd number : <input type="text" id= "second" maxlength="4" size="4" />
+        <br><br>
+        <input type="button" onclick="AdditionBy()" value="Addition"
+        title="Click here to find the sum of the two numbers" />
+        <input type="button" onclick="SubtractionBy()" value="Subtraction"
+        title="Click here to find the difference of the two numbers" />
+        <input type="button" onclick="MultiplicationBy()" value="Multiplication"
+        title="Click here to find the product of the two numbers" />
+        <input type="button" onclick="DivisionBy()" value="Division"
+        title="Click here to find the divison of the two numbers" />
+    </form><br><br>
+
+    <p>The Final Result is : <input id= "result" maxlength="4" size="4"></p>
+    
+</body>
+</html>

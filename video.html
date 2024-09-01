@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="video.css">
+    <script type="text/javascript" src="video.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="right_side">
+            <li><a href="simple_website.html"><span class="word_color">Music</span> Player</a></li>
+        </ul>
+        <ul>
+            <li><a href="simple_website.html">Home</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Select your video</h1>
+        <div class="selection" style="width: 200px;">
+            <select id="videoSelector" class="select-selected">
+                <option value="" disabled selected>Select a video...</option>
+                <option value="Binks Sake.mp4">Binks Sake</option>
+                <option value="anime.mp4">Anime</option>
+                <option value="Suzume.mp4">Suzume</option>
+            </select>
+        </div>
+        <br><br>
+    
+        <div class="vid-container">
+            <video width="800" id="videoPlayer" controls>
+                Your browser does not support the audio element.
+            </video>
+        </div>
+    </main>
+</body>
+
+</html>

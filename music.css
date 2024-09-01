@@ -1,0 +1,72 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 61, 61);
+    border-bottom:6px solid rgb(255, 72, 0);
+}
+.right_side li{
+    text-align: left;
+    margin: 0px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(64, 61, 61);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: right;
+}
+.navbar a:hover{
+    color:  rgb(255, 72, 0);
+
+
+}
+.navbar li{
+    float: left;
+}
+.word_color{
+    color: rgb(255, 72, 0);
+}
+
+h1{
+    margin-top: 220px;
+    text-align: center;
+    color: azure;
+    font-size: 40px;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.selection{
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+.select-selected {
+    background-color: rgb(183, 205, 250);
+    font-family: cursive;
+    font-size: x-large;
+    margin-top: 150px;
+  }
+  .audio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .audio-container audio{
+    color: aquamarine;
+    background-color: aquamarine;
+  }
+  body{
+    background-image: url("781013.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
